@@ -3,7 +3,7 @@
 * Email:
 ***********************************************
 * Purpose:
-* 
+* Administrator Program
 ***********************************************/
 #include <iostream>
 #include <string>
