@@ -1,6 +1,6 @@
 /***********************************************
-* Name:
-* Email:
+* Name: Christian Garcia
+* Email: garcia86@students.rowan.edu
 ***********************************************
 * Purpose:
 * 
