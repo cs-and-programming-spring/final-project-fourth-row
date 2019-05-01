@@ -3,7 +3,7 @@
 
 using namespace std;
 
-const int s = 27;
+const int s = 2;
 double grades[s];
 string names[s];
 bool run = true, loop = true;
@@ -55,6 +55,7 @@ void classGrades(){
     cout<<"Here is a list of all the students registered and their grade:"<<endl;
     for (int a = 0; a < s; a++) {
         cout<<names[a]<<": "<< grades[a]<<endl;
+    
     }
     cout<<endl;
 }
@@ -101,7 +102,7 @@ if(letter == "F"){
 
 int main() {
 
-    int grade, choice, prgm;
+    int grade, choice, prgm, month, day;
     string name, answer;
 
     while (loop) {
@@ -110,6 +111,12 @@ int main() {
         cin >> prgm;
         cout << "\n\n";
         if (prgm == 1) {
+            cout<<"Please input the current month. (Numerical value, October=10)"<<endl;
+            cin>>month;
+            cout<<"Please input the current day. (Numerical value)"<<endl;
+            cin>>day;
+            cout<<"Today's date is "<<month<<"/"<<day<<endl;
+            cout<<endl;
             for (int a = 0; a < s; a++) {
 
                 cout << "Input name" << "\n\n";
@@ -224,4 +231,3 @@ public:
     }
 
 };
-
