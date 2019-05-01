@@ -3,7 +3,7 @@
 
 using namespace std;
 
-const int s = 1;
+const int s = 25;
 double grades[s];
 string names[s];
 bool run = true, loop = true;
